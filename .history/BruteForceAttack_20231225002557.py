@@ -1,7 +1,7 @@
 import time
 import random
 
-#you can define the numbers of character you want to add
+
 character = "0123456789abcdefghijklmnopqrstuvwxyz"
 character_list = list(character)
 password = input("PLease enter your password ")
@@ -15,6 +15,6 @@ while(guess != password):
 print("your password is  " + guess)
 end = time.time()
 elapsed_time = end-start
-#The time it will take to crack your password
-print(elapsed_time)
+
+#print("The time it take to crack your password is " + start )
 
